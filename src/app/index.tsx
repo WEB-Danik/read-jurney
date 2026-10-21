@@ -1,8 +1,9 @@
 import './styles/App.css';
+import {AuthLayout} from "../pages/auth";
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+        <AuthLayout/>
     </>
   )
 }

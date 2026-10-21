@@ -1,0 +1,81 @@
+.wrapper_auth {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 100%;
+    height: 100vh;
+
+    padding: 20px 20px;
+}
+.auth_part {
+    width: 100%;
+    flex: 1;
+    border-radius: 30px;
+
+    background-color: rgba(31, 31, 31, 1);
+}
+.sign_auth_container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    padding: 20px 20px 40px 20px;
+}
+.logoImg {
+    margin-bottom: 20px;
+}
+.buttons_container {
+    display: flex;
+    gap: 14px;
+}
+.btn_sign {
+    padding: 12px 29px;
+    border-radius: 30px;
+
+    font-weight: 700;
+    font-size: 14px;
+
+    background-color: rgba(249, 249, 249, 1);
+    color: rgba(31, 31, 31, 1);
+}
+.btn_change {
+    font-weight: 500;
+    font-size: 11px;
+
+    color: rgba(104, 104, 104, 1);
+
+    text-decoration: underline;
+    text-decoration-color: rgba(104, 104, 104, 1);
+    text-decoration-style: solid;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+.website_demo_container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.iPhone_15 {
+    transform: translateY(20px);
+}
+@media (min-width: 768px) {
+    .website_demo_container {
+        display: none;
+    }
+}
+@media (min-width: 1440px) {
+    .wrapper_auth {
+        display: flex;
+        flex-direction: row;
+    }
+    .website_demo_container {
+        display: flex;
+    }
+    .iPhone_15 {
+        transform: translateY(115px);
+        width: 405px;
+        height: auto;
+    }
+}

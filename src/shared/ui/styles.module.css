@@ -1,0 +1,11 @@
+.input_container {
+    display: flex;
+
+    padding: 14px 0 14px 14px;
+    gap: 10px;
+
+    border-radius: 12px;
+
+    background-color: rgba(38, 38, 38, 1);
+    color: rgba(104, 104, 104, 1);
+}
