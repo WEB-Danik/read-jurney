@@ -9,3 +9,7 @@
     background-color: rgba(38, 38, 38, 1);
     color: rgba(104, 104, 104, 1);
 }
+.menu_items {
+    display: flex;
+    gap: 40px;
+}
